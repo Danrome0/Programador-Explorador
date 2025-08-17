@@ -1,18 +1,11 @@
 body{
-    margin: 0%;
-
+    margin: 0;
+    padding: 0;
+    background: grey;
 }
-button{
-    color: rgb(252, 252, 252);
-    width: 100px;
-    height: 100px;
-    border-radius: 15%;
-    opacity: 0.5;
-    padding: 10;
-}
+/* Encabezado */
 fieldset{
     border-radius: 10px;
-
 }
 fieldset h1 {
     text-align: center;
@@ -23,7 +16,7 @@ fieldset h1 {
     margin-right: 35%;
     border-radius: 30px;
 }
-
+/* Estructura pagina */
 .contenedor{
     width: 100%;
     display: grid;
@@ -31,12 +24,10 @@ fieldset h1 {
 }
 a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    text-align: center;
-    font-size: 150%;
-    color: rgb(0, 0, 0);
+
 }
-.columna{
+/* Barra de Navegador */
+.columna-nav{
     height: 120%;
     display: flex;
     flex-direction: column;
@@ -44,18 +35,30 @@ a{
     padding: 20;
     background-image: url(./gradient-connection-background_23-2150462053.avif);
     border-radius: 10px;
+    gap: 20px
 }
 .botones{
-    margin-top: 15%;
+    opacity: 0.5;
+    border: 1px;
+    border-radius: 20px;
+	position: relative;
+	overflow: hidden;    
 }
+.botones a {
+    font-size: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+/* Informacion de la pagina */
 .text{
     height: 120%;
     background-color: rgb(6, 14, 37);
     margin: none;
-    border-top: 10px solid lightgrey;
-    border-left: 10px solid lightgrey;
-    border-radius: 5px; 
-    /*box-shadow: 0 0 0 10px rgb(197, 189, 189);*/
+    border-top: 10px solid #515c75;
+    border-left: 10px solid #515c75;
+    border-radius: 5px;
     
-       
+    display: grid;
+    grid-template-columns: ;
 }
