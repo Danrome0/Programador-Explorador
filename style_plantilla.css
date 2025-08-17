@@ -6,6 +6,7 @@ body{
 /* Encabezado */
 fieldset{
     border-radius: 10px;
+    border: 0;
 }
 fieldset h1 {
     text-align: center;
@@ -18,9 +19,10 @@ fieldset h1 {
 }
 /* Estructura pagina */
 .contenedor{
+    max-width: 1920px;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 9fr;
+    grid-template-columns: 1fr 12fr;
 }
 a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -45,7 +47,7 @@ a{
 	overflow: hidden;    
 }
 .botones a {
-    font-size: 100%;
+    font-size: 150%;
     text-decoration: none;
     text-align: center;
     color: black;
@@ -58,7 +60,22 @@ a{
     border-top: 10px solid #515c75;
     border-left: 10px solid #515c75;
     border-radius: 5px;
+    color: red;
     
     display: grid;
-    grid-template-columns: ;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.parrafo_1-1{
+    /* width: 90%; */
+    background-color: green;
+    border-radius: 10px;
+	min-height: 200px;
+	padding: 10px;
+    margin: 2%;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+
 }
