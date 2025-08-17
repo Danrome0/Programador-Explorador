@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
@@ -22,7 +25,7 @@ fieldset h1 {
     max-width: 1920px;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 12fr;
+    grid-template-columns: 1fr 11fr;
 }
 a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -34,26 +37,26 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20;
+    padding: 20px 10px;
     background-image: url(./gradient-connection-background_23-2150462053.avif);
     border-radius: 10px;
     gap: 20px
 }
 .botones{
     opacity: 0.5;
-    border: 1px;
+    min-width: 85px;
     border-radius: 20px;
 	position: relative;
 	overflow: hidden;    
 }
 .botones a {
-    font-size: 150%;
+    font-size: 125%;
     text-decoration: none;
     text-align: center;
     color: black;
 }
 /* Informacion de la pagina */
-.text{
+.informacion{
     height: 120%;
     background-color: rgb(6, 14, 37);
     margin: none;
@@ -72,10 +75,8 @@ a{
     border-radius: 10px;
 	min-height: 200px;
 	padding: 10px;
-    margin: 2%;
+    margin: 10px;
 	position: relative;
 	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
 
 }
