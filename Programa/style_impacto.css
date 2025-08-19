@@ -41,7 +41,7 @@ a{
     flex-direction: column;
     align-items: center;
     padding: 20px 10px;
-    background-image: url(./img/Imagen_navbar.avif);
+    background-image: url(../img/Imagen_navbar.avif);
     border-radius: 10px;
     gap: 20px
 }
@@ -135,7 +135,7 @@ a{
 .texto {
     color: white;
     font-family: 'Outfit', sans-serif;
-    font-size: 1rem;
+    font-size: 20px;
     padding: 15px 20px; /* separa texto del borde */
     display: flex;
     flex-direction: column;
