@@ -12,14 +12,14 @@ fieldset{
 }
 fieldset h1 {
     text-align: center;
-    background-color: #4c516d;
+    background: linear-gradient(180deg, #15183e 20%, #6979d7 100%);
     color: white;
     font-family: 'Outfit', sans-serif;
     margin-left: 35%;
     margin-right: 35%;
     border-radius: 30px;
     padding: 1%;
-    box-shadow: 0 4 12 rgba(0,0,0,0.5);
+    box-shadow: 0 4 12 rgba(254,254,254,0.5);
 }
 /* Estructura pagina */
 .contenedor{
@@ -73,9 +73,9 @@ a{
     /* gap: 20px; */
 }
 .parrafo_1-1, .parrafo_2-1, .parrafo_3-1, .parrafo_4-1{
-    width: 90%;
+    width: 97%;
     /* background-color: #2F364D; */
-    background: linear-gradient(180deg, #2F364D 20%, #4c516d 100%);
+    background: linear-gradient(180deg, #15183e 20%, #6979d7 100%);
     border-radius: 20px;
 	min-height: 150px;
 	padding: 20px;
@@ -88,7 +88,7 @@ a{
 }
 .texto {
     color: white;
-    font-size: 20px;
+    font-size: 22px;
 }
 .bandera {
     height: 100%;
@@ -97,9 +97,8 @@ a{
     align-items: center;
 }
 .accordion-body{
-    font-size: 16px;
+    font-size: 18px;
     color: white;
-    /* background-color: #2F364D; */
     background: linear-gradient(180deg, #2F364D 20%, #4c516d 100%);
 }
 .accordion-button {
