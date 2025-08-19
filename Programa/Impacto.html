@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-      <fieldset style="background-color: #6c6e7e">
+      <fieldset style="background-image: url(../img/Imagen_navbar1.jpg);">
         <h1>Impacto Ambiental</h1>
       </fieldset>
     </header>
@@ -60,44 +60,56 @@
         </div>
 
         <!-- Contenido derecho -->
-        <div class="informacion">
+        <div  class="informacion">
           <!-- Primeros cuatro cuadros -->
-          <div class="parrafo_1-1">
+          <div class="separador1">
+            <fieldset class="parrafo_1-1">
+              <legend class="legend1">En la fabricación</legend>         
             <div class="texto">
-              <h1>En la fabricación</h1> 
               <p>La producción de vehículos eléctricos demanda gran cantidad de recursos y energía, sobre todo por la extracción de minerales como litio, cobalto, níquel y cobre, esenciales para las baterías.</p>
               <p>La minería de litio consume millones de litros de agua y afecta ecosistemas, mientras que la producción de una batería de 60 kWh puede emitir hasta 16 toneladas de CO₂, dependiendo del origen de la electricidad usada.</p>
+              <img src="/img/pollution.gif" width="500" height="250">
             </div>
-          </div>
-          <div class="parrafo_1-2">
+            </fieldset>
+          
+            <fieldset class="parrafo_1-2">
+              <legend class="legend2">En el uso</legend>
             <div class="texto">
-              <h1>En el uso</h1> 
               <p>Los vehículos eléctricos no emiten CO₂ ni contaminantes como CO, NOₓ o PM2.5 al conducir El impacto real, sin embargo, depende de la fuente de energía utilizada para recargar las baterías</p>
               <p>Un vehículo eléctrico puede reducir entre un 30% y un 70% las emisiones de gases de efecto invernadero en comparación con un auto de combustión interna</p>
               <p>El tiempo necesario para compensar la "deuda de carbono" inicial suele rondar entre 2 y 4 años de uso.</p>
             </div>
+            </fielset>
           </div>
-          <div class="parrafo_2-1">
+
+          </div><br><br>
+          <div class="separador2">
+          <fieldset class="parrafo_2-1">
+            <legend class="legend3">Mantenimiento y vida útil</legend> 
             <div class="texto">
-              <h1>Mantenimiento y vida útil</h1> 
               <p>Los autos eléctricos requieren menos mantenimiento que los de gasolina, pues no usan aceite, filtros ni escape, lo que reduce costos y residuos.
                  Sus baterías de litio duran entre 8 y 15 años según el uso, pero luego pierden capacidad y deben reemplazarse o reutilizarse en almacenamiento de energía. 
                  Esto supone un reto técnico y económico, ya que el cambio de batería sigue siendo costoso.</p>
             </div>  
-          </div>
-          <div class="parrafo_2-2">
-            <div class="texto">
-              <h1>Fin de vida útil y reciclaje</h1> 
+          </fieldset>
+
+          <fieldset class="parrafo_2-2" >
+            <legend class="legend4">Fin de vida útil y reciclaje</legend>          
+            <div class="texto"> 
               <p>El reciclaje de baterías es uno de los principales desafíos para asegurar la sostenibilidad de los vehículos eléctricos. 
                 Actualmente, menos del 5% de las baterías de litio se reciclan adecuadamente. Esto genera riesgos ambientales debido a la liberación de sustancias tóxicas y a la acumulación de desechos peligrosos.</p>
               <p>La Unión Europea ha propuesto metas ambiciosas que buscan recuperar entre el 60% y el 90% de los materiales de las baterías para 2030. Con el avance de tecnologías de reciclaje, como la pirometalurgia e hidrometalurgia</p>  
             </div>
+          </fieldset>
           </div>
+          </div>
+          
+          
 
           <!-- Nuevo cuadro de Encuesta -->
-          <div class="parrafo_encuesta">
+          <fieldset class="parrafo_encuesta">
+            <legend class="legend5">Encuesta</legend>
             <div class="texto">
-              <h1>Encuesta</h1>
               <form>
                 <label for="Pregunta1">¿Considera positivo el impacto ambiental de los vehículos eléctricos?</label><br>
                 <select id="Pregunta1" name="Pregunta1">
@@ -124,7 +136,7 @@
                 <button type="submit">Enviar</button>
               </form>
             </div>
-          </div>
+          </fieldset>
         </div>
       </div>
     </main>
