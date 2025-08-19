@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+/* Encabezado */
+fieldset{
+    border-radius: 10px;
+    border: 0;
+    
+}
+fieldset h1 {
+    text-align: center;
+    background-color: #4c516d;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding: 2%;
+    border-radius: 25px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+}
+/* Estructura pagina */
+.contenedor{
+    max-width: 1920px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/* Barra de Navegador */
+.columna-nav{
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    background-image: url(./img/Imagen_navbar.avif);
+    border-radius: 10px;
+    gap: 20px
+}
+.botones{
+    opacity: 0.5;
+    min-width: 85px;
+    border-radius: 20px;
+	position: relative;
+	overflow: hidden;    
+}
+.botones a {
+    font-size: 125%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+/* Informacion de la pagina */
+.informacion{
+    height: 120%;
+    background-color: rgb(6, 14, 37);
+    margin: 0;
+    border-top: 10px solid #515c75;
+    border-left: 10px solid #515c75;
+    border-radius: 5px;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center; /* Centra horizontalmente las cajas */
+}
+.parrafo_1-1, .parrafo_1-2, .parrafo_2-1, .parrafo_2-2{
+    width: 80%;
+    background-color: #1d0847c8;
+    border-radius: 10px;
+	min-height: 200px;
+	padding: 15px;
+    margin: 15px;
+	position: relative;
+	overflow: hidden;
+    
+}
+/* Contenedor de información */
+.informacion{
+    height: 120%;
+    background-color: rgb(6, 14, 37);
+    margin: 0;
+    border-top: 10px solid #515c75;
+    border-left: 10px solid #515c75;
+    border-radius: 5px;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; /* más aire entre cuadros */
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Cuadros */
+.parrafo_1-1, .parrafo_1-2, .parrafo_2-1, .parrafo_2-2{
+    width: 90%;
+    background: linear-gradient(180deg, #1d0847 20%, #1a2357 100%);
+    border-radius: 20px;
+    min-height: 250px;
+    padding: 0; /* quitamos padding del contenedor */
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Encabezado de cada cuadro */
+.parrafo_1-1 h1, 
+.parrafo_1-2 h1, 
+.parrafo_2-1 h1, 
+.parrafo_2-2 h1 {
+    background-color: #6c6e7e;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius:10px;
+    width: 280px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+   
+}
+
+/* Texto dentro de cada cuadro */
+.texto {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    padding: 15px 20px; /* separa texto del borde */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.parrafo_encuesta {
+  width: 90%;
+  background: linear-gradient(180deg, #1d0847 20%, #1a2357 100%);
+  border-radius: 20px;
+  min-height: 200px;
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+  
+
+}
+
+
