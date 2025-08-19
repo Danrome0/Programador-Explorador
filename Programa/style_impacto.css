@@ -17,10 +17,10 @@ fieldset h1 {
     background-color: #4c516d;
     color: white;
     font-family: 'Outfit', sans-serif;
-    margin-left: 38%;
-    margin-right: 38%;
-    padding: 2%;
-    border-radius: 25px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 1%;
+    border-radius: 30px;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
 }
 /* Estructura pagina */
@@ -53,10 +53,17 @@ a{
 	overflow: hidden;    
 }
 .botones a {
-    font-size: 125%;
+    font-size: 115%;
     text-decoration: none;
     text-align: center;
     color: black;
+}
+.efecto{
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.efecto:hover{
+    transform: scale(1.1); 
 }
 /* Informacion de la pagina */
 .informacion{
