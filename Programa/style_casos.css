@@ -12,14 +12,14 @@ fieldset{
 }
 fieldset h1 {
     text-align: center;
-    background: linear-gradient(180deg, #15183e 20%, #6979d7 100%);
+    background: linear-gradient(180deg, #6979d7 20%, #000001 100%);
     color: white;
     font-family: 'Outfit', sans-serif;
     margin-left: 35%;
     margin-right: 35%;
     border-radius: 30px;
     padding: 1%;
-    box-shadow: 0 4 12 rgba(254,254,254,0.5);
+    box-shadow: 0px 4px 12px rgba(254,254,254,0.5);
 }
 /* Estructura pagina */
 .contenedor{
