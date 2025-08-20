@@ -7,22 +7,6 @@
     transform: scale(1.1); /* Increases size by 10% */
   }
 
-
-#princ{
-  min-height: 50vh;
-  position: relative;
-
-}
-video{
-  position:absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200%;
-  object-fit: cover;
-
-}
-
 .filtro{
   position: absolute;
   top:0;
