@@ -1,66 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-        <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="./style_impacto.css">
-    <title>Plantilla</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style_nosotros.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <title>Nosotros</title>
 </head>
-<body>
-        <header>
-      <fieldset style="background-image: url(./img/Imagen_navbar1.jpg);">
-        <h1>Nosotros</h1>
-      </fieldset>
-    </header>
-    <main>
-      <div class="contenedor">
-        <!-- Barra lateral izquierda -->
-        <div class="columna-nav">
-          <div>
-            <button class="efecto botones">
-              <img src="./img/Inicio.svg" alt="imagen de inicio" width="50" height="60" class="Imagenes-nav"/><br>
-              <a href="index.html">Inicio</a>
-            </button>
-          </div>
-          <div>
-            <button class="efecto botones">
-              <img src="./img/Historia.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav"/><br/>
-              <a href="Historia.html">Historia</a>
-            </button>
-          </div>
-          <div>
-            <button class="efecto botones">
-              <img src="./img/General.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav"/><br/>
-              <a href="General.html">General</a>
-            </button>
-          </div>
-          <div>
-            <button class="efecto botones">
-              <img src="./img/Impacto.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav"/><br/>
-              <a href="Impacto.html">Impacto</a>
-            </button>
-          </div>
-          <div>
-            <button class="efecto botones">
-              <img src="./img/Casos.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav"/><br/>
-              <a href="Casos.html">Casos</a>
-            </button>
-          </div>
-          <div>
-            <button class="efecto botones">
-              <img src="./img/Nosotros.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav"/><br/>
-              <a href="Nosotros.html">Nosotros</a>
-            </button>
+
+<body style="background-color: #515c75;">
+  <header>
+    <fieldset style="background-image: url(./img/Imagen_navbar1.jpg);">
+      <h1>Nosotros</h1>
+    </fieldset>
+  </header>
+  <main>
+    <div class="contenedor">
+      <!-- Barra lateral izquierda -->
+      <div class="columna-nav">
+        <div>
+          <button class="efecto botones">
+            <img src="./img/Inicio.svg" alt="imagen de inicio" width="50" height="60" class="Imagenes-nav" /><br>
+            <a href="index.html">Inicio</a>
+          </button>
+        </div>
+        <div>
+          <button class="efecto botones">
+            <img src="./img/Historia.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="Historia.html">Historia</a>
+          </button>
+        </div>
+        <div>
+          <button class="efecto botones">
+            <img src="./img/General.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="General.html">General</a>
+          </button>
+        </div>
+        <div>
+          <button class="efecto botones">
+            <img src="./img/Impacto.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="Impacto.html">Impacto</a>
+          </button>
+        </div>
+        <div>
+          <button class="efecto botones">
+            <img src="./img/Casos.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="Casos.html">Casos</a>
+          </button>
+        </div>
+        <div>
+          <button class="efecto botones">
+            <img src="./img/Nosotros.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="Nosotros.html">Nosotros</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="informacion">
+        <h1 class="titulo">EQUIPO DE TRABAJO</h1>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
+          <fieldset>
+            <div class="card"
+              style="width: 18rem; background-color: rgb(6, 14, 37);color: aliceblue;margin-top: 100px;margin-right: 150px;margin-left: 30px;">
+              <img style="height: 300px;width: 200px;" src="./img/sara.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sara Calderón ♥</h5>
+                <p class="card-text">La bbsita</p>
+                <a href="https://www.instagram.com/sara_xac/" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </fieldset>
+          <fieldset>
+            <div class="card"
+              style="width: 18rem; background-color: rgb(6, 14, 37);color: aliceblue;margin-top: 100px; margin-right: 100px;margin-left: 45px;">
+              <img style="height: 300px;width: 200px;" src="./img/mario2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mario Jimenez ♣</h5>
+                <p class="card-text">El Undergold</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </fieldset>
+          <fieldset>
+            <div class="card"
+              style="width: 18rem; background-color: rgb(6, 14, 37);color: aliceblue;margin-top: 100px; margin-right: 100px;margin-left: 50px;">
+              <img style="height: 300px;width: 200px;" src="./img/daniel.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Daniel Rodriguez ♠</h5>
+                <p class="card-text">El de la granadilla</p>
+                <a href="https://www.instagram.com/danielrome00/" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </fieldset>
+          <div class="card"
+            style="width: 18rem; background-color: rgb(6, 14, 37);color: aliceblue;margin-top: 100px; margin-right: 50px;margin-left: 55px;">
+            <img style="height: 300px;width: 200px;" src="./img/gustavo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gustavo Castilla ♦</h5>
+              <p class="card-text">El técnico</p>
+              <a href="#" class="btn btn-primary"><img src="./img/instagram.svg"></a>
+            </div>
           </div>
         </div>
-    
+      </div>
+
+
+
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
