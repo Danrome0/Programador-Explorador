@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+/* Encabezado */
+/* Encabezado */
+fieldset{
+    border-radius: 10px;
+    border: 0;
+}
+fieldset h1 {
+    text-align: center;
+    background: linear-gradient(180deg, #6979d7 20%, #000001 100%);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 30px;
+    padding: 1%;
+    box-shadow: 0px 4px 12px rgba(254,254,254,0.5);
+}
+/* Estructura pagina */
+.contenedor{
+    max-width: 1920px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/* Barra de Navegador */
+.columna-nav{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    background-image: url(../img/Imagen_navbar.avif);
+    border-radius: 10px;
+    gap: 20px;
+    margin: 10px;
+}
+.botones{
+    opacity: 0.5;
+    min-width: 85px;
+    border-radius: 20px;
+	position: relative;
+	overflow: hidden;    
+}
+.botones a {
+    font-size: 125%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+/* Informacion de la pagina */
+.informacion{
+    height: 120%;
+    background-color: rgb(6, 14, 37);
+    margin: none;
+    border-top: 10px solid #515c75;
+    border-left: 10px solid #515c75;
+    border-radius: 5px;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.parrafo_1-1{
+    width: 100%;
+    background-color: #202040;
+    border-radius: 10px;
+	min-height: 200px;
+	padding: 10px;
+    margin: 10px;
+	position: relative;
+	overflow: hidden;
+    
+}
+.parrafo_1-2{
+    width: 100%;
+    border-radius: 10px;
+	min-height: 200px;
+	padding: 10px;
+    margin: 10px;
+	position: relative;
+	overflow: hidden;
+    
+}
+.parrafo_2-1{
+    width: 100%;
+    border-radius: 10px;
+	min-height: 200px;
+	padding: 10px;
+    margin: 10px;
+	position: relative;
+	overflow: hidden;
+    
+}
+.parrafo_2-2{
+    width: 100%;
+    background-color: #202040;
+    border-radius: 10px;
+	min-height: 200px;
+	padding: 10px;
+    margin: 10px;
+	position: relative;
+	overflow: hidden;
+    
+}
+.parrafo_3-1{
+    width: 100%;
+    background-color: #202040;
+    border-radius: 10px;
+	min-height: 200px;
+	padding: 10px;
+    margin: 10px;
+	position: relative;
+	overflow: hidden;
+    
+}
+.parrafo_3-2{
+    width: 100%;
+    border-radius: 10px;
+	min-height: 200px;
+	padding: 10px;
+    margin: 10px;
+	position: relative;
+	overflow: hidden;
+    
+}
+.texto {
+    color: white;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.legend1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 15px 20px; /* separa texto del borde */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.legend2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 15px 20px; /* separa texto del borde */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    color: white;
+}
+.legend3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 15px 20px; /* separa texto del borde */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    color: white;
+}
+.separador {
+  width: 2px;               /* grosor de la línea */
+  background-color: white;  /* color de la línea */
+  height: 100%;             /* altura automática al contenido */
+}
