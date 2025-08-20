@@ -36,7 +36,7 @@ a{
 }
 /* Barra de Navegador */
 .columna-nav{
-    height: 270%;
+    height: 275%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +68,7 @@ a{
 }
 /* Informacion de la pagina */
 .informacion{
-    height: 270%;
+    height: 275%;
     background-color: rgb(6, 14, 37);
     margin-top: 10px;
     border-radius: 10px;
