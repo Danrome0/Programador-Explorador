@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style_general.css" />
+  <script src="https://kit.fontawesome.com/54085e6dda.js" crossorigin="anonymous"></script>
+  <script src="partes.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <fieldset style="background-image: url(../img/Imagen_navbar1.jpg);">
+      <h1>Generalidades</h1>
+    </fieldset>
+  </header>
+
+  <main>
+    <div class="contenedor">
+      <div class="columna-nav">
+        <div>
+          <button class="efecto botones">
+            <img src="../img/Inicio.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="index.html">Inicio</a>
+          </button>
+        </div>
+
+        <div>
+          <button class="efecto botones">
+            <img src="../img/Historia.svg" alt="imghistoria" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="Historia.html">Historia</a>
+          </button>
+        </div>
+
+        <div>
+          <button class="efecto botones">
+            <img src="../img/General.svg" alt="imggeneral" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="General.html">General</a>
+          </button>
+        </div>
+
+        <div>
+          <button class="efecto botones">
+            <img src="../img/Impacto.svg" alt="imgimpacto" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="Impacto.html">Impacto</a>
+          </button>
+        </div>
+
+        <div>
+          <button class="efecto botones">
+            <img src="../img/Casos.svg" alt="imgcasos" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="Casos.html">Casos</a>
+          </button>
+        </div>
+
+        <div>
+          <button class="efecto botones">
+            <img src="../img/Nosotros.svg" alt="imgnosotros" width="50" height="60" class="Imagenes-nav" /><br />
+            <a href="Nosotros.html">Nosotros</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="informacion">
+
+        <div id="que_es" class="div1">
+          <fieldset class="cuadro">
+            <legend>¿Qué es un Auto Eléctico?</legend>
+            <p
+              style="color: aliceblue; font-size:120%; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin: 4%;">
+              Los coches eléctricos son aquellos que están impulsados por un motor alimentado por una fuente de energía
+              eléctrica que,
+              posteriormente, se transforma en energía cinética. En la actualidad, la tecnología que más implantación
+              tiene es la de las
+              baterías de iones de litio, aunque existen otros tipos.
+            </p>
+          </fieldset>
+
+          <div>
+            <img src="/img/img1general.png" style="width: 110%;margin-top: 40px;" />
+          </div>
+        </div>
+
+        <div id="elementosqueloconforman" class="div2">
+          <fieldset class="cuadro2">
+            <legend class="legend1">Elementos que lo conforman</legend><br>
+            <select id="seleccion" onchange="ver()">
+              <option id='motor'>Motor</option>
+              <option id='baterias'>Batería</option>
+              <option id='controladores'>Controladores</option>
+            </select>
+            <div id='mot' class="separar">
+              <div>
+                <h3>Motor</h3>
+              </div>
+              <div>
+                <img style="width: 600px;height:auto;margin-bottom: 20px;margin-right: 20px;" src="/img/motor.jpg" />
+              </div>
+            </div>
+
+            <div id='bat' class="separar" style="display: none;">
+              <div><h3>Batería</h3></div>
+              <div><img style="width: 700px;height: 400px;" src="/img/bateria.png" /></div>
+            </div>
+            <div id='cont' class="separar" style="display: none;">
+              <div><h3>Controladores</h3></div>
+              <div><img style="width: 700px;height: 400px;" src="/img/controlador.png" /></div>
+            </div>
+          </fieldset>
+
+        </div>
+
+        <div id="caracteristicas" class="div3">
+          <fieldset class="cuadro3">
+            <legend class="legend3">Características</legend>
+
+          </fieldset>
+        </div>
+
+        <div id="Fabricacion_tipos" class="div4">
+          <fieldset class="cuadro4">
+            <legend class="legend4">Fabricación</legend>
+            <iframe width="620" height="320" style="align-items: center;"
+              src="https://www.youtube.com/embed/xu7k-a6yEI4?si=2x-QYkSjwBjkXcr2" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </fieldset>
+          <fieldset class='cuadro41'>
+            <legend class="legend4">Tipos</legend>
+            <ul
+              style="color: aliceblue; font-size:120%; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;list-style-type: none;">
+              <li>Battery Electric Vehicle (BEV)</li>
+              <li>Fuel Cell Electric Vehicle (FCEV)</li>
+              <li>Extended-Range Electric Vehicles (EREV)</li>
+            </ul>
+            <img style="width: 350px;" src="/img/Tipossgif.gif" />
+          </fieldset>
+        </div>
+
+        <div id="futuro">
+          <fieldset class="cuadro5">
+            <legend class="legend5">Futuro</legend>
+            <div class="div5">
+              <div style="margin-top: 20px;"><p  style="color: aliceblue; font-size:120%; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin: 4%;">
+                Los próximos años serán, necesariamente, los de la consolidación y, también, los de un mayor crecimiento en la comercialización de los vehículos eléctricos. Las principales marcas global del sector de la automoción están inmersas en proyectos de I+D para incrementar, de manera exponencial, la autonomía de estos automóviles. Por ejemplo, Volkswagen tiene ya en pruebas un modelo que incorpora un motor eléctrico independiente para cada rueda, aumentando de manera exponencial su autonomía.
+              </p></div>
+              <div>
+                <p>grafica</p>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
+        <div id="datocurioso"></div>
+        <footer>
+          <p style="font-size: 70%; color: aliceblue;text-align: center;text-align: end;">
+            &copy; Derechos Reservados, 2025.</p>
+        </footer </div>
+      </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

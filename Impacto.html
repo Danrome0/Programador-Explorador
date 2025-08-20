@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./style_impacto.css">
+    <title>Plantilla</title>
+  </head>
+  <body>
+    <header>
+      <fieldset style="background-image: url(../img/Imagen_navbar1.jpg);">
+        <h1>Impacto Ambiental</h1>
+      </fieldset>
+    </header>
+    <main>
+      <div class="contenedor">
+        <!-- Barra lateral izquierda -->
+        <div class="columna-nav">
+          <div>
+            <button class="efecto botones">
+              <img src="../img/Inicio.svg" alt="imagen de inicio" width="50" height="60" class="Imagenes-nav"/><br>
+              <a href="index.html">Inicio</a>
+            </button>
+          </div>
+          <div>
+            <button class="efecto botones">
+              <img src="../img/Historia.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav"/><br/>
+              <a href="Historia.html">Historia</a>
+            </button>
+          </div>
+          <div>
+            <button class="efecto botones">
+              <img src="../img/General.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav"/><br/>
+              <a href="General.html">General</a>
+            </button>
+          </div>
+          <div>
+            <button class="efecto botones">
+              <img src="../img/Impacto.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav"/><br/>
+              <a href="Impacto.html">Impacto</a>
+            </button>
+          </div>
+          <div>
+            <button class="efecto botones">
+              <img src="../img/Casos.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav"/><br/>
+              <a href="Casos.html">Casos</a>
+            </button>
+          </div>
+          <div>
+            <button class="efecto botones">
+              <img src="../img/Nosotros.svg" alt="imginicio" width="50" height="60" class="Imagenes-nav"/><br/>
+              <a href="Nosotros.html">Nosotros</a>
+            </button>
+          </div>
+        </div>
+
+        <!-- Contenido derecho -->
+        <div  class="informacion">
+          <!-- Primeros cuatro cuadros -->
+          <div class="separador1">
+            <fieldset class="parrafo_1-1">
+              <legend class="legend1">En la fabricación</legend>         
+            <div class="texto">
+              <p>La producción de vehículos eléctricos demanda gran cantidad de recursos y energía, sobre todo por la extracción de minerales como litio, cobalto, níquel y cobre, esenciales para las baterías.</p>
+              <p>La minería de litio consume millones de litros de agua y afecta ecosistemas, mientras que la producción de una batería de 60 kWh puede emitir hasta 16 toneladas de CO₂, dependiendo del origen de la electricidad usada.</p>
+              <img src="/img/pollution.gif" width="500" height="250">
+            </div>
+            </fieldset>
+          
+            <fieldset class="parrafo_1-2">
+              <legend class="legend2">En el uso</legend>
+            <div class="texto">
+              <p>Los vehículos eléctricos no emiten CO₂ ni contaminantes como CO, NOₓ o PM2.5 al conducir El impacto real, sin embargo, depende de la fuente de energía utilizada para recargar las baterías</p>
+              <p>Un vehículo eléctrico puede reducir entre un 30% y un 70% las emisiones de gases de efecto invernadero en comparación con un auto de combustión interna</p>
+              <p>El tiempo necesario para compensar la "deuda de carbono" inicial suele rondar entre 2 y 4 años de uso.</p>
+            </div>
+            </fielset>
+          </div>
+
+          </div><br><br>
+          <div class="separador2">
+          <fieldset class="parrafo_2-1">
+            <legend class="legend3">Mantenimiento y vida útil</legend> 
+            <div class="texto">
+              <p>Los autos eléctricos requieren menos mantenimiento que los de gasolina, pues no usan aceite, filtros ni escape, lo que reduce costos y residuos.
+                 Sus baterías de litio duran entre 8 y 15 años según el uso, pero luego pierden capacidad y deben reemplazarse o reutilizarse en almacenamiento de energía. 
+                 Esto supone un reto técnico y económico, ya que el cambio de batería sigue siendo costoso.</p>
+            </div>  
+          </fieldset>
+
+          <fieldset class="parrafo_2-2" >
+            <legend class="legend4">Fin de vida útil y reciclaje</legend>          
+            <div class="texto"> 
+              <p>El reciclaje de baterías es uno de los principales desafíos para asegurar la sostenibilidad de los vehículos eléctricos. 
+                Actualmente, menos del 5% de las baterías de litio se reciclan adecuadamente. Esto genera riesgos ambientales debido a la liberación de sustancias tóxicas y a la acumulación de desechos peligrosos.</p>
+              <p>La Unión Europea ha propuesto metas ambiciosas que buscan recuperar entre el 60% y el 90% de los materiales de las baterías para 2030. Con el avance de tecnologías de reciclaje, como la pirometalurgia e hidrometalurgia</p>  
+            </div>
+          </fieldset>
+          </div>
+          </div>
+          
+          
+
+          <!-- Nuevo cuadro de Encuesta -->
+          <fieldset class="parrafo_encuesta">
+            <legend class="legend5">Encuesta</legend>
+            <div class="texto">
+              <form>
+                <label for="Pregunta1">¿Considera positivo el impacto ambiental de los vehículos eléctricos?</label><br>
+                <select id="Pregunta1" name="Pregunta1">
+                  <option value="si">Sí</option>
+                  <option value="no">No</option>
+                </select><br><br>
+
+                <label for="Pregunta2">¿Cosidera viable la meta de recuperación de baterias propuesta por la Unión Europea para el 2030?</label><br>
+                <select id="Pregunta2" name="Pregunta2">
+                  <option value="si">Sí</option>
+                  <option value="no">No</option>
+                </select><br><br>
+
+                <label for="Pregunta3">¿Alguna vez se ha montado en un auto eléctrico?</label><br>
+                <select id="Pregunta3" name="Pregunta3">
+                  <option value="si">Sí</option>
+                  <option value="no">No</option>
+                </select><br><br>
+
+                <label for="Pregunta4">¿Qué opinión personal tiene sobre los autos eléctricos?</label><br><br>
+                <textarea id="Pregunta4" name="Pregunta4" rows="7" cols="62" required></textarea>
+                <br><br>
+
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
