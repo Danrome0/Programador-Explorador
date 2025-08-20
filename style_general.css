@@ -188,6 +188,19 @@ select{
     display: block;
 }
 
+.slide1{
+    border-radius: 10px;
+}
+.slide1 img{
+    width: 950px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+
+}
+
+
 /* DIV 4- FUNCION TIPOS */
 .div4{
     display: grid;
