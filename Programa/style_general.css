@@ -149,14 +149,12 @@ legend{
 }
 select{
     width: 130px;
-    height: 30px;
+    height: 50px;
     text-align: center;
     border-radius: 25px;
     background-color: #15183e;
     color: aliceblue;
     border-color: rgb(6, 6, 6);
-    display: flex;
-    justify-content: center;
 }
 
 /* DIV 3-CARACTERISTICA */
@@ -272,6 +270,15 @@ select{
 .separar{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
+
+ h3{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10mm;
+    text-shadow:black;
+    text-align: center;
+ }
+
 
