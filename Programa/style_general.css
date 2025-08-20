@@ -41,7 +41,7 @@ a{
     flex-direction: column;
     align-items: center;
     padding: 20px 10px;
-    background-image: url(./img/Imagen_navbar.jpg);
+    background-image: url(../img/Imagen_navbar.avif);
     border-radius: 10px;
     gap: 20px;
     margin: 10px;
@@ -80,7 +80,7 @@ a{
 .div1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 0px;
 }
 
 .cuadro{
@@ -152,10 +152,11 @@ select{
     height: 30px;
     text-align: center;
     border-radius: 25px;
-    background-color: rgb(152, 165, 176);
+    background-color: #15183e;
     color: aliceblue;
     border-color: rgb(6, 6, 6);
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 /* DIV 3-CARACTERISTICA */
