@@ -9,7 +9,7 @@ body{
 /* Encabezado */
 /* Encabezado */
 fieldset{
-    border-radius: 10px;
+    border-radius: 20px;
     border: 0;
 }
 fieldset h1 {
@@ -19,7 +19,7 @@ fieldset h1 {
     font-family: 'Outfit', sans-serif;
     margin-left: 35%;
     margin-right: 35%;
-    border-radius: 30px;
+    border-radius: 40px;
     padding: 1%;
     box-shadow: 0px 4px 12px rgba(254,254,254,0.5);
 }
@@ -36,7 +36,7 @@ a{
 }
 /* Barra de Navegador */
 .columna-nav{
-    height: 100%;
+    height: 120%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,8 +66,7 @@ a{
     margin: none;
     border-top: 10px solid #515c75;
     border-left: 10px solid #515c75;
-    border-radius: 5px;
-    
+    border-radius: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -81,6 +80,7 @@ a{
     margin: 10px;
 	position: relative;
 	overflow: hidden;
+    
     
 }
 .parrafo_1-2{
@@ -149,6 +149,7 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     gap: 10px;
+    text-align: center;
 }
 .legend2 {
     font-family: 'Outfit', sans-serif;
@@ -158,9 +159,9 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     gap: 10px;
-    color: white;
 }
 .legend3 {
+    text-align: center;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     padding: 15px 20px; /* separa texto del borde */
@@ -170,8 +171,42 @@ a{
     gap: 10px;
     color: white;
 }
-.separador {
-  width: 2px;               /* grosor de la línea */
-  background-color: white;  /* color de la línea */
-  height: 100%;             /* altura automática al contenido */
+.legend4 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 15px 20px; /* separa texto del borde */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    color: white;
 }
+.legend5 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 15px 20px; /* separa texto del borde */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    color: white;
+    text-align: center;
+}
+.legend6 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 15px 20px; /* separa texto del borde */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    color: white;
+}
+.linea{
+    border: none;              /* quita los estilos por defecto */
+  height: 4px;               /* grosor de la línea */
+  background-color: white;   /* color de la línea */
+  margin: 20px 0;            /* espacio arriba y abajo */
+  border-radius: 3px; 
+}
+
