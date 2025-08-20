@@ -84,11 +84,10 @@ a{
 }
 
 .cuadro{
-    width: 100%;
+    width: 650px;
     background: linear-gradient(180deg, #15183e 20%, #6979d7 100%);
     border-radius: 15px;
 	min-height: 200px;
-    min-width: 700px;
 	padding: 10px;
     margin-top: 40px;
     margin-left: 30px;
@@ -124,11 +123,10 @@ legend{
 
 }
 .cuadro2{
-    width: 100%;
+    width: 300px;
     background: linear-gradient(180deg, #15183e 20%, #6979d7 100%);
     border-radius: 15px;
 	min-height: 400px;
-    min-width: 1020px;
 	padding: 10px;
     margin-top: 40px;
     margin-left: 30px;
@@ -143,18 +141,19 @@ legend{
     font-size:150%;
     color: rgb(255, 255, 255);
     padding: 10px;
-    width: 450px;
+    width: 380px;
     box-sizing: border-box;
     display: block;
 }
 select{
     width: 130px;
-    height: 50px;
+    height: 30px;
     text-align: center;
     border-radius: 25px;
     background-color: #15183e;
     color: aliceblue;
     border-color: rgb(6, 6, 6);
+    margin-left: 150px;
 }
 
 /* DIV 3-CARACTERISTICA */
@@ -241,11 +240,10 @@ select{
 
 }
 .cuadro5{
-    width: 100%;
+    width: 1040px;
     background: linear-gradient(180deg, #15183e 20%, #6979d7 100%);
     border-radius: 15px;
 	min-height: 400px;
-    min-width: 1020px;
 	padding: 10px;
     margin-top: 40px;
     margin-left: 30px;
@@ -267,16 +265,10 @@ select{
 
 /*PARA LOS COMPONENTES*/
 
-.separar{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
  h3{
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 10mm;
+    font-size: 7mm;
     text-shadow:black;
     text-align: center;
  }
