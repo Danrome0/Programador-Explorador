@@ -4,24 +4,24 @@
 body{
     margin: 0;
     padding: 0;
-    background: grey;
+    background: #515c75;
 }
 /* Encabezado */
-/* Encabezado */
 fieldset{
-    border-radius: 20px;
+    border-radius: 10px;
     border: 0;
+    
 }
 fieldset h1 {
     text-align: center;
-    background: linear-gradient(180deg, #6979d7 20%, #000001 100%);
-    color: white;
+        color: white;
     font-family: 'Outfit', sans-serif;
     margin-left: 35%;
     margin-right: 35%;
-    border-radius: 40px;
     padding: 1%;
-    box-shadow: 0px 4px 12px rgba(254,254,254,0.5);
+    border-radius: 30px;
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(180deg, #6979d7 20%, #000001 100%);
 }
 /* Estructura pagina */
 .contenedor{
@@ -36,7 +36,7 @@ a{
 }
 /* Barra de Navegador */
 .columna-nav{
-    height: 120%;
+    height: 270%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,159 +54,111 @@ a{
 	overflow: hidden;    
 }
 .botones a {
-    font-size: 125%;
+    font-size: 115%;
     text-decoration: none;
     text-align: center;
     color: black;
 }
+.efecto{
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.efecto:hover{
+    transform: scale(1.1); 
+}
 /* Informacion de la pagina */
 .informacion{
-    height: 120%;
+    height: 270%;
     background-color: rgb(6, 14, 37);
-    margin: none;
-    border-top: 10px solid #515c75;
-    border-left: 10px solid #515c75;
-    border-radius: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+   
+}
+
+/* Contenedor de información */
+
+.separador1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    justify-items: center; /* Centra horizontalmente las cajas */
+    margin-top: 40px;
 }
-.parrafo_1-1{
-    width: 100%;
-    background-color: #202040;
-    border-radius: 10px;
-	min-height: 200px;
-	padding: 10px;
-    margin: 10px;
-	position: relative;
-	overflow: hidden;
-    
-    
-}
-.parrafo_1-2{
-    width: 100%;
-    border-radius: 10px;
-	min-height: 200px;
-	padding: 10px;
-    margin: 10px;
-	position: relative;
-	overflow: hidden;
-    
-}
-.parrafo_2-1{
-    width: 100%;
-    border-radius: 10px;
-	min-height: 200px;
-	padding: 10px;
-    margin: 10px;
-	position: relative;
-	overflow: hidden;
-    
-}
-.parrafo_2-2{
-    width: 100%;
-    background-color: #202040;
-    border-radius: 10px;
-	min-height: 200px;
-	padding: 10px;
-    margin: 10px;
-	position: relative;
-	overflow: hidden;
-    
-}
-.parrafo_3-1{
-    width: 100%;
-    background-color: #202040;
-    border-radius: 10px;
-	min-height: 200px;
-	padding: 10px;
-    margin: 10px;
-	position: relative;
-	overflow: hidden;
-    
-}
-.parrafo_3-2{
-    width: 100%;
-    border-radius: 10px;
-	min-height: 200px;
-	padding: 10px;
-    margin: 10px;
-	position: relative;
-	overflow: hidden;
-    
-}
-.texto {
-    color: white;
-    display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-.legend1 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 15px;
-    padding: 15px 20px; /* separa texto del borde */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px;
-    text-align: center;
-}
-.legend2 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 15px;
-    padding: 15px 20px; /* separa texto del borde */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px;
-}
-.legend3 {
-    text-align: center;
-    font-family: 'Outfit', sans-serif;
-    font-size: 15px;
-    padding: 15px 20px; /* separa texto del borde */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px;
-    color: white;
-}
-.legend4 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 15px;
-    padding: 15px 20px; /* separa texto del borde */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px;
-    color: white;
-}
-.legend5 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 15px;
-    padding: 15px 20px; /* separa texto del borde */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px;
-    color: white;
-    text-align: center;
-}
-.legend6 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 15px;
-    padding: 15px 20px; /* separa texto del borde */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px;
-    color: white;
-}
-.linea{
-    border: none;              /* quita los estilos por defecto */
-  height: 4px;               /* grosor de la línea */
-  background-color: white;   /* color de la línea */
-  margin: 20px 0;            /* espacio arriba y abajo */
-  border-radius: 3px; 
+.separador2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    justify-items: center; /* Centra horizontalmente las cajas */
+    margin-top: 40px;
 }
 
+.separador3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center; /* Centra horizontalmente las cajas */
+    margin-top: 40px;
+}
+
+
+/* Cuadros */
+.parrafo_1-1,  .parrafo_1-2, .parrafo_2-1, .parrafo_2-2, .parrafo_3-1, .parrafo_3-2{
+    width: 90%;
+    background: linear-gradient(180deg, #15183e 20%, #6979d7 100%);
+    border-radius: 20px;
+    min-height: 250px;
+    padding: 10px; /* quitamos padding del contenedor */
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+}
+
+
+
+/* Texto dentro de cada cuadro */
+.texto {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    padding: 15px 20px; /* separa texto del borde */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align:center;
+}
+
+
+/* Encabezado de cada cuadro y de encuesta */
+.legend1, .legend2, .legend3, .legend4, .legend5,{
+    background: linear-gradient(180deg, #6979d7 20%, #000001 100%);
+    border-radius:15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:150%;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 350px;
+    box-sizing: border-box;
+    display: block; 
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.5);
+}
+
+.imagenes_texto{
+    border-radius:15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+}
+
+.arreglo_inferior{
+    width: 80%;
+    background: linear-gradient(180deg, #15183e 20%, #6979d7 100%);
+    border-radius: 20px;
+    min-height: 250px;
+    padding: 10px; /* quitamos padding del contenedor */
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    margin-left: 500px;
+}
