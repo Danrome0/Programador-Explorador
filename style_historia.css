@@ -41,7 +41,7 @@ a{
     flex-direction: column;
     align-items: center;
     padding: 20px 10px;
-    background-image: url(../img/Imagen_navbar.avif);
+    background-image: url(./img/Imagen_navbar.avif);
     border-radius: 10px;
     gap: 20px;
     margin: 10px;
